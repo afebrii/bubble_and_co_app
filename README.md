@@ -1,7 +1,7 @@
 # Bubble & CO Laundry App
 
 <p align="center">
-  <img src="assets/icons/bubble_and_co.png" alt="Bubble & CO Logo" width="200"/>
+  <img src="assets/icons/bubbles_co_logo.png" alt="Bubble & CO Logo" width="200"/>
 </p>
 
 <p align="center">
