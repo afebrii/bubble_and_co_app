@@ -1,24 +1,18 @@
-# Laundry JagoFlutter
+# Bubble & CO Laundry App
 
 <p align="center">
-  <img src="assets/icons/logolaundry.png" alt="Laundry JagoFlutter Logo" width="200"/>
+  <img src="assets/icons/bubble_and_co.png" alt="Bubble & CO Logo" width="200"/>
 </p>
 
 <p align="center">
   <strong>Aplikasi Kasir Laundry UMKM Indonesia - Full Offline, Jalan Tanpa Internet!</strong>
 </p>
 
-<p align="center">
-  <a href="https://jagoflutter.com">JagoFlutter.com</a> •
-  <a href="https://instagram.com/codewithbahri">Instagram</a> •
-  <a href="https://youtube.com/@codewithbahri">YouTube</a>
-</p>
-
 ---
 
 ## Tentang Aplikasi
 
-**Laundry JagoFlutter** adalah aplikasi kasir laundry modern yang dirancang khusus untuk UMKM Indonesia. Aplikasi ini berjalan **100% offline** - tidak memerlukan koneksi internet untuk beroperasi. Semua data tersimpan aman di perangkat lokal.
+**Bubble & CO** adalah aplikasi kasir laundry modern yang dirancang khusus untuk UMKM Indonesia. Aplikasi ini berjalan **100% offline** - tidak memerlukan koneksi internet untuk beroperasi. Semua data tersimpan aman di perangkat lokal.
 
 ### Fitur Utama
 
@@ -110,8 +104,8 @@ lib/
 
 1. **Clone repository**
    ```bash
-   git clone https://github.com/bahrie127/flutter_laundry_offline_app.git
-   cd flutter_laundry_offline_app
+   git clone https://github.com/afebrii/bubble_and_co_app.git
+   cd bubble_and_co_app
    ```
 
 2. **Install dependencies**
@@ -138,7 +132,7 @@ Output: `build/app/outputs/flutter-apk/app-debug.apk`
 ```bash
 flutter build apk --release
 ```
-Output: `build/app/outputs/flutter-apk/app-release.apk`
+Output: `build/app/outputs/flutter-apk/bubble_and_co.apk` (Menggunakan script `build_apk.bat` lokal)
 
 ### Split APK per ABI (ukuran lebih kecil)
 ```bash
@@ -325,12 +319,12 @@ flutter pub run flutter_launcher_icons
 ### App Name
 Edit `lib/core/constants/app_constants.dart`:
 ```dart
-static const String appName = 'Laundry JagoFlutter';
+static const String appName = 'Bubble & CO';
 ```
 
 Dan `android/app/src/main/AndroidManifest.xml`:
 ```xml
-android:label="Laundry JagoFlutter"
+android:label="Bubble & CO"
 ```
 
 ---
@@ -347,16 +341,16 @@ android:label="Laundry JagoFlutter"
 
 ## Design System
 
-### Colors (Purple/Violet Theme)
+### Colors (Blue Theme)
 ```dart
-Primary: #7B2D8E (Violet)
-Primary Light: #9B4DB0
-Primary Dark: #5A1D6B
+Primary: #2A7FBF (Blue)
+Primary Light: #5CA3D6
+Primary Dark: #1D5C8A
 Background: #FAF7FB
 Surface: #FFFFFF
-Error: #E53935
-Success: #43A047
-Warning: #FB8C00
+Error: #F44336
+Success: #4CAF50
+Warning: #FF9800
 ```
 
 ### Typography (Poppins)
@@ -428,42 +422,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## Mentor & Developer
-
-<table>
-  <tr>
-    <td align="center">
-      <strong>Saiful Bahri</strong><br/>
-      <a href="https://instagram.com/codewithbahri">@codewithbahri</a><br/><br/>
-      Founder JagoFlutter.com<br/>
-      Co-Founder & CTO PT HINT<br/><br/>
-      13+ tahun pengalaman di industri teknologi<br/>
-      dari startup hingga unicorn (Go-Jek, dll)
-    </td>
-  </tr>
-</table>
-
-### Connect with me
-- LinkedIn: [linkedin.com/in/bahrie](https://linkedin.com/in/bahrie)
-- GitHub: [github.com/bahrie127](https://github.com/bahrie127)
-- Instagram: [instagram.com/codewithbahri](https://instagram.com/codewithbahri)
-- YouTube: [youtube.com/@codewithbahri](https://youtube.com/@codewithbahri)
-- WhatsApp: [wa.me/6285640899224](https://wa.me/6285640899224)
-
----
-
-## Learn Flutter
-
-Ingin belajar Flutter dari NOL hingga PRO?
-
-Kunjungi **[JagoFlutter.com](https://jagoflutter.com)** untuk:
-- Tutorial lengkap Flutter
-- Project-based learning
-- Mentoring langsung
-- Komunitas developer
-
----
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -471,5 +429,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <p align="center">
-  Made with love by <a href="https://jagoflutter.com">JagoFlutter.com</a>
+  Made with love by Bubble & CO
 </p>
+
