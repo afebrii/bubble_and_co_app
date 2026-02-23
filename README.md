@@ -300,14 +300,6 @@ Output: `build/ios/ipa/flutter_laundry_offline_app.ipa`
 
 ## Configuration
 
-### Package Name
-Current: `com.jagoflutter.laundryoffline`
-
-Untuk mengubah package name:
-```bash
-flutter pub run change_app_package_name:main com.yourcompany.yourapp
-```
-
 ### App Icon
 Logo: `assets/icons/logolaundry.png`
 

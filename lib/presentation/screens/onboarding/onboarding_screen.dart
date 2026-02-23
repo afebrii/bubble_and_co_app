@@ -29,7 +29,7 @@ class _OnboardingScreenState extends State<OnboardingScreen>
       gradient: const LinearGradient(
         begin: Alignment.topCenter,
         end: Alignment.bottomCenter,
-        colors: [Color(0xFFAB5DC4), Color(0xFF7B2D8E), Color(0xFF5A1D6B)],
+        colors: [Color(0xFF5CA3D6), Color(0xFF2A7FBF), Color(0xFF1D5C8A)],
       ),
     ),
     OnboardingData(
@@ -41,7 +41,7 @@ class _OnboardingScreenState extends State<OnboardingScreen>
       gradient: const LinearGradient(
         begin: Alignment.topCenter,
         end: Alignment.bottomCenter,
-        colors: [Color(0xFF9B4DB0), Color(0xFF7B2D8E), Color(0xFF4A1A5E)],
+        colors: [Color(0xFF81BEE6), Color(0xFF2A7FBF), Color(0xFF15486E)],
       ),
     ),
     OnboardingData(
@@ -53,7 +53,7 @@ class _OnboardingScreenState extends State<OnboardingScreen>
       gradient: const LinearGradient(
         begin: Alignment.topCenter,
         end: Alignment.bottomCenter,
-        colors: [Color(0xFFB86FCC), Color(0xFF8B3FA0), Color(0xFF5A1D6B)],
+        colors: [Color(0xFFA5D2F2), Color(0xFF4397D8), Color(0xFF1D5C8A)],
       ),
     ),
   ];
