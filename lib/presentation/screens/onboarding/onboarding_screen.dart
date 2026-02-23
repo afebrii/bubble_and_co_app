@@ -23,7 +23,7 @@ class _OnboardingScreenState extends State<OnboardingScreen>
     OnboardingData(
       icon: Icons.local_laundry_service,
       title: 'Selamat Datang!',
-      subtitle: 'Bubbles & Co.',
+      subtitle: 'Bubbles & Co',
       description:
           'Aplikasi kasir laundry modern untuk UMKM Indonesia.\nKelola bisnis laundry Anda dengan mudah, cepat, dan profesional.',
       gradient: const LinearGradient(

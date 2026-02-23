@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
     return MultiBlocProvider(
       providers: [BlocProvider(create: (_) => AuthCubit()..checkAuthStatus())],
       child: MaterialApp(
-        title: 'Bubbles & Co.',
+        title: 'Bubbles & Co',
         debugShowCheckedModeBanner: false,
         theme: AppTheme.lightTheme,
         home: AuthWrapper(showOnboarding: showOnboarding),

@@ -2,7 +2,7 @@ class AppConstants {
   AppConstants._();
 
   // App Info
-  static const String appName = 'Bubbles & Co.';
+  static const String appName = 'Bubbles & Co';
   static const String appVersion = '1.0.0';
   static const String appDescription =
       'Aplikasi Kasir Laundry UMKM Indonesia - Full Offline, Jalan Tanpa Internet!';
@@ -55,7 +55,7 @@ class AppConstants {
   static const String keyLastInvoiceNumber = 'last_invoice_number';
 
   // Default Laundry Info
-  static const String defaultLaundryName = 'Bubbles & Co.';
+  static const String defaultLaundryName = 'Bubbles & Co';
   static const String defaultLaundryAddress =
       'Cikatomas, Tasikmalaya, Jawa Barat';
   static const String defaultLaundryPhone = '6282216796892';
